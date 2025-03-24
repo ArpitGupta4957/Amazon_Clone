@@ -1,16 +1,62 @@
-# amazon_clone
+# SwiftBuyDev 🛒
 
-A new Flutter project.
+SwiftBuyDev is an **Amazon-like eCommerce mobile application**, built with **Flutter** and integrated with **Firebase Authentication**. It offers a seamless online shopping experience with modern UI/UX, real-time database management, and smooth performance.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- 🛍️ **Product Listings** – Browse various product categories with detailed descriptions and images.
+- 🔍 **Search & Filters** – Advanced search functionality with filtering and sorting options.
+- 🛒 **Shopping Cart & Wishlist** – Add items to your cart or save them for later.
+- 🔐 **User Authentication** – Secure sign-up, login, and logout using Firebase Authentication.
+- 💳 **Order Management** – Track orders and manage previous purchases.
+- 📦 **Real-time Database** – Firebase Firestore for product, user, and order data.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### **Frontend:**
+- Flutter (Dart)
+- Provider / Riverpod for state management
+- Material Design / Custom UI components
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### **Backend & Database:**
+- Firebase Authentication
+- Firebase Firestore (NoSQL database)
+- Firebase Cloud Functions (for backend logic)
+- Firebase Storage (for product images)
+
+## 📂 Installation & Setup
+
+1️⃣ **Clone the repository**
+```sh
+ git clone https://github.com/your-username/SwiftBuyDev.git
+ cd SwiftBuyDev
+```
+
+2️⃣ **Install dependencies**
+```sh
+ flutter pub get
+```
+
+3️⃣ **Set up Firebase**
+- Create a Firebase project on [Firebase Console](https://console.firebase.google.com/).
+- Enable **Firebase Authentication** (Email/Google sign-in).
+- Set up **Firestore Database** and **Firebase Storage**.
+- Download the `google-services.json` file and place it inside `android/app/`.
+
+4️⃣ **Run the application**
+```sh
+ flutter run
+```
+
+## 🎯 Future Improvements
+- 🏷️ Implement discount & coupon system
+- 📊 Add order tracking with push notifications
+- 🌎 Multi-language & currency support
+
+## 📬 Connect with Me
+- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourusername)
+- GitHub: [Your GitHub](https://github.com/your-username)
+- Portfolio: [Your Portfolio](https://yourportfolio.com)
+
+## 📜 License
+This project is **MIT Licensed** – feel free to use and modify it!
