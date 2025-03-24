@@ -1,0 +1,81 @@
+name: amazon_clone
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  http:
+  shared_preferences:
+  provider:
+  badges: ^3.0.2
+  carousel_slider:
+  flutter_speed_dial: ^6.2.0
+  dotted_border: ^2.0.0+3
+  file_picker:
+  cloudinary_public:
+  flutter_rating_bar: ^4.0.1
+  awesome_snackbar_content: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/images/
+
+
+  # example:
+  fonts:
+    - family: productSansBold
+      fonts:
+        - asset: assets/fonts/Product Sans Bold.ttf
+    - family: productSansReg
+      fonts:
+        - asset: assets/fonts/Product Sans Regular.ttf
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Thin.ttf
+          weight: 100
+        - asset: fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: fonts/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: fonts/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: fonts/Poppins-Black.ttf
+          weight: 900
